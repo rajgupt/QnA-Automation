@@ -20,5 +20,5 @@ question=st.text_input('Ask a question here:')
 
 
 answer = nlp(question=question, context=interview)
-st.text(answer['answer'],answer['score'])
+st.text(answer['answer'])
 
