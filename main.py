@@ -7,7 +7,7 @@ from transformers.pipelines import base
 
 nlp = pipeline("question-answering")
 
-interview=Clean.interview(Scrape_text.contexts())
+interview=Clean.clean_book('ML interview.txt')
 
 # Project Title
 st.header("Welcome to Automated Q&A bot")
